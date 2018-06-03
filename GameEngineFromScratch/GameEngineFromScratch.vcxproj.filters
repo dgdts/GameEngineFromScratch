@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="BaseApplication.cpp">
+      <Filter>Framework\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>Framework\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="EmptyApplication.cpp">
+      <Filter>Empty</Filter>
+    </ClCompile>
+    <ClCompile Include="GraphicsManager.cpp">
+      <Filter>Framework\Common</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Framework">
+      <UniqueIdentifier>{49aa7c09-5398-42b9-9b1c-aacdf677fbfb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Framework\Common">
+      <UniqueIdentifier>{cf122436-034b-4daa-961c-343f24714b86}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Framework\Interface">
+      <UniqueIdentifier>{e01c5e6d-3333-488f-aa61-7dee5b0de066}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Empty">
+      <UniqueIdentifier>{9d4d2cf2-adc6-4052-acbf-9d8da3aba120}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="BaseApplication.h">
+      <Filter>Framework\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="IApplication.h">
+      <Filter>Framework\Interface</Filter>
+    </ClInclude>
+    <ClInclude Include="Interface.h">
+      <Filter>Framework\Interface</Filter>
+    </ClInclude>
+    <ClInclude Include="IRuntimeModule.h">
+      <Filter>Framework\Interface</Filter>
+    </ClInclude>
+    <ClInclude Include="GraphicsManager.h">
+      <Filter>Framework\Common</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
