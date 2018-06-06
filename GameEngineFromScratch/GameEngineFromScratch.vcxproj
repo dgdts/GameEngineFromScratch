@@ -77,6 +77,7 @@
       <SDLCheck>true</SDLCheck>
       <ConformanceMode>true</ConformanceMode>
       <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
+      <AdditionalIncludeDirectories>.\Framework\Interface;.\Framework\Common;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
@@ -119,17 +120,17 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="BaseApplication.cpp" />
-    <ClCompile Include="EmptyApplication.cpp" />
-    <ClCompile Include="GraphicsManager.cpp" />
-    <ClCompile Include="main.cpp" />
+    <ClCompile Include="Framework\Common\BaseApplication.cpp" />
+    <ClCompile Include="Empty\EmptyApplication.cpp" />
+    <ClCompile Include="Framework\Common\GraphicsManager.cpp" />
+    <ClCompile Include="Framework\Common\main.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="BaseApplication.h" />
-    <ClInclude Include="GraphicsManager.h" />
-    <ClInclude Include="IApplication.h" />
-    <ClInclude Include="Interface.h" />
-    <ClInclude Include="IRuntimeModule.h" />
+    <ClInclude Include="Framework\Common\BaseApplication.h" />
+    <ClInclude Include="Framework\Common\GraphicsManager.h" />
+    <ClInclude Include="Framework\Interface\IApplication.h" />
+    <ClInclude Include="Framework\Interface\Interface.h" />
+    <ClInclude Include="Framework\Interface\IRuntimeModule.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
