@@ -13,6 +13,8 @@
     <ClCompile Include="Empty\EmptyApplication.cpp">
       <Filter>Empty</Filter>
     </ClCompile>
+    <ClCompile Include="Platform\Windows\helloengine_win.cpp" />
+    <ClCompile Include="Platform\Windows\helloengine_d2d.cpp" />
   </ItemGroup>
   <ItemGroup>
     <Filter Include="Framework">
